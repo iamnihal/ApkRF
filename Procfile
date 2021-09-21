@@ -1,0 +1,1 @@
+web: gunicorn ApkSF.wsgi
