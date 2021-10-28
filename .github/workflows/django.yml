@@ -27,5 +27,3 @@ jobs:
         pip install -r requirements.txt
     - name: Run migrations
       run: python manage.py migrate
-    - name: Bulid the Docker image
-      run: docker build . --file Dockerfile --tag warf:$(date +%s)
